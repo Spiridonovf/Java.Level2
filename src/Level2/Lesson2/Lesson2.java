@@ -9,5 +9,10 @@ public class Lesson2 {
 
     private static void SummArray(String arr[][]) {
     }
+    private static void test()
+    {
+        ;
+    }
+
 
 }
