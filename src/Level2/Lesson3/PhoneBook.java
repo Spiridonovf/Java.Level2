@@ -1,9 +1,6 @@
 package Level2.Lesson3;
-
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 //класс реализующий запись тел.справочника
 class Record  {
