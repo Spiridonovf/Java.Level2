@@ -2,7 +2,7 @@ package Level2.Lesson3;
 import java.util.ArrayList;
 import java.util.List;
 
-//класс реализующий запись тел.справочника
+// класс реализующий запись тел.справочника
 class Record  {
     private final long id;
     private String phone;

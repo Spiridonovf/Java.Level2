@@ -25,10 +25,10 @@ public class ArrFindDublicate {
         array_of_words.add("пятый");
         array_of_words.add("пятый");
         System.out.println(array_of_words);
-        //вывод уникальных значений
+        // вывод уникальных значений
         Set<String> unique_words = new HashSet<String>(array_of_words);
         System.out.println(unique_words);
-        //подсчет кол-ва вхождений слова в массив слов
+        // подсчет кол-ва вхождений слова в массив слов
         for(String str:unique_words)
             System.out.println(str+" "+Collections.frequency(array_of_words, str));
         }
