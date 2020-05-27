@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Level2.Lesson4.ChatForm">
+
+
+
+    <VBox alignment="center" prefHeight="300.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+        <TextArea fx:id="mainTextArea" editable="false" VBox.vgrow="ALWAYS" />
+        <TextField fx:id="messageTextField" onKeyPressed="#KeyEnterPress" prefHeight="15.0" />
+        <Button fx:id="btnSend" onAction="#btnSendClickAction" text="Отправить" />
+    </VBox>
+
+
+</AnchorPane>
