@@ -4,7 +4,7 @@ import Level2.Lesson6.ChatClient;
 
 import java.io.*;
 import java.net.Socket;
-
+ 
 public class Client implements Runnable {
     private Socket socket = null;
     private DataInputStream in;
